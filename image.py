@@ -5,7 +5,7 @@ width = int(img.shape[1] * scale / 100)
 height = int(img.shape[0] * scale / 100)
 dim = (width, height)
 
-#2,for downscale take scale<100 and for increment take scale >100 i.e 400
+#2.For downscale take scale<100 and for increment take scale >100 i.e 400
 print('Original Dimensions : ', img.shape) # (194, 259, 3)
 
 #3.Resize image
